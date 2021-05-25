@@ -1,6 +1,6 @@
 ## portfolio website
 
-![Card portfolio](/src/assets/card_portfolio.gif)
+![Card portfolio](/src/assets/card-portfolio.gif)
 
 ## Built with
 - [Reactjs](https://reactjs.org/)
