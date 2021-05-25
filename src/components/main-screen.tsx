@@ -26,10 +26,8 @@ const MainScreen = () => {
       <motion.div whileHover={{ y: -5, scale: 1.1 }}>
         <Box boxShadow={"xl"} _hover={{ boxShadow: "lg" }} borderRadius="full">
           <Avatar
-            // as={Link}
             _groupHover={{ width: "5rem", height: '5rem' }}
             size={"xl"}
-            // href={"/"}
             src={"https://avatars2.githubusercontent.com/u/37842853?v=4"}
           />
         </Box>
