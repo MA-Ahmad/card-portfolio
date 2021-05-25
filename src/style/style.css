@@ -1,0 +1,31 @@
+.card-swing {
+    animation: cardswing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+}
+
+.card-swing:hover {
+    animation-play-state: paused;
+}
+
+.arrow-swing {
+    animation: arrowswing ease-in-out 1s infinite alternate;
+}
+
+@keyframes cardswing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+@keyframes arrowswing {
+    0%, 100% {
+        transform: translate3d(5px, 0, 0);
+    }
+    
+    800% {
+        transform: translate3d(7px, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(8px, 0, 0);
+    }
+}

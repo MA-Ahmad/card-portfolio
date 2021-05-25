@@ -7,6 +7,7 @@ import Skills from "./skills";
 import MainScreen from "./main-screen";
 import { container } from "./animation-variants";
 import Footer from "./footer";
+import '../style/style.css';
 
 const Card = () => {
   const bg = useColorModeValue("white", "#2f3244");
@@ -25,6 +26,7 @@ const Card = () => {
         height="max-content"
         width="max-content"
         margin="auto"
+        className="card-swing"
       >
         <Box
           maxH={"400px"}
@@ -48,12 +50,13 @@ const Card = () => {
           )}
           <HStack
             position={"absolute"}
-            left={0}
+            left={'-5px'}
             bottom={0}
             p={1}
             py={1}
             width={"100%"}
             justify={"flex-end"}
+            className="arrow-swing"
           >
             <motion.div
               whileHover={{
