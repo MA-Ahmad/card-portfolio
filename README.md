@@ -1,8 +1,6 @@
 ## portfolio website
 
-![Gif](/src/assets/card_portfolio.gif)
-![Main Screen](/src/assets/images/screens/main-screen.png)
-![Skills Screen](/src/assets/images/screens/skills.png)
+![Card portfolio](/src/assets/card_portfolio.gif)
 
 ## Built with
 - [Reactjs](https://reactjs.org/)
