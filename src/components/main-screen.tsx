@@ -28,7 +28,7 @@ const MainScreen = () => {
           <Avatar
             _groupHover={{ width: "5rem", height: '5rem' }}
             size={"xl"}
-            src={"https://avatars2.githubusercontent.com/u/37842853?v=4"}
+            src={"https://avatars.githubusercontent.com/u/40239193?v=4"}
           />
         </Box>
       </motion.div>
@@ -38,7 +38,7 @@ const MainScreen = () => {
         textTransform="capitalize"
         noOfLines={2}
       >
-        Muhammad Ahmad
+        Arup Mandal
       </Heading>
       <Text
         color={"gray.500"}
@@ -47,7 +47,7 @@ const MainScreen = () => {
         _groupHover={{ display: "none" }}
         display="block"
       >
-        Full-Stack Developer
+        Student|Developer|Learner|
       </Text>
       <Fade in>
       <Text
@@ -57,7 +57,7 @@ const MainScreen = () => {
         _groupHover={{ display: "block" }}
         display="none"
       >
-        I'm a Full Stack Developer and an open source lover from Pakistan 🇵🇰
+        I'm a Student  and an open source lover from INDIA 
       </Text>
       </Fade>
       <Divider />
