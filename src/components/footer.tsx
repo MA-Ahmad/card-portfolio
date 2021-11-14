@@ -30,7 +30,7 @@ const Footer = () => {
           }
         }}
       />
-      in Pakistan{"  "}🇵🇰
+      in India{"  "}�in
     </Box>
   );
 };
